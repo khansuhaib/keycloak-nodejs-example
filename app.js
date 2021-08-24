@@ -43,7 +43,7 @@ let keyCloak = new KeyCloakService(PERMISSIONS);
 
 let adminClient = new AdminClient({
     realm: 'CAMPAIGN_REALM',
-    serverUrl: 'http://localhost:8080',
+    serverUrl: 'http://keycloak-nodejs-example-git-keycloak.apps-crc.testing/',
     resource: 'CAMPAIGN_CLIENT',
     adminLogin: 'admin',
     adminPassword: 'admin'
